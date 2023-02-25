@@ -6,7 +6,7 @@
 
 #Importing our dataset into RStudio, then looking at summary of dataset
 
-df <- read.delim("C:/Users/dogukan1/Desktop/Meter A")
+df <- read.delim("C:/Meter A")
 
 dim(df) 
 str(df)
@@ -16,7 +16,7 @@ sum(is.na(df))
 
 #We can clearly say that our dataset is not perfect to see. Our dependent variable, which is going to
 #be predicted by our models is named as x1. At this point, our independent variables have named
-#strangely. That’s why we are going to start with changing the names of variables.
+#strangely. Thatâ€™s why we are going to start with changing the names of variables.
 
 names(df) <- paste("x", 1:ncol(df), sep = "");
 
@@ -50,7 +50,7 @@ library(summarytools)
 
 by(df2, df2$y, summary) #Summary of dataset by labels of our dependent variable. 
 #If you want to summarize specific independent variable by labels of dependent variable, 
-#you can change df2 to df2$(Ýndependentvariableyouwant)
+#you can change df2 to df2$(Ãndependentvariableyouwant)
 
 
 stby(
