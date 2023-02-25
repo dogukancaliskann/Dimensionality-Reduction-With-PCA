@@ -21,13 +21,21 @@ Class '1' - Healthy
 Class '2' - Installation effects
 
 All attributes are continuous, with the exception of the class attribute.
+
 (1) -- Flatness ratio
+
 (2) -- Symmetry
+
 (3) -- Crossflow
+
 (4)-(11) -- Flow velocity in each of the eight paths
+
 (12)-(19) -- Speed of sound in each of the eight paths
+
 (20) -- Average speed of sound in all eight paths
+
 (21)-(36) -- Gain at both ends of each of the eight paths
+
 (37) -- Class attribute or health state of meter: 1,2
 
 Let’s skip to the code section.
