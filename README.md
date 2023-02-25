@@ -12,11 +12,14 @@ In principal component analysis, we are using the explainable variation rates. W
 
 
 Summary:
+
 I’ve used Principal Component Analysis to realize the importance of variables. Practice does not contain the part of using machine learning algorithms.
 First of all, I’ve prepared the data for analyzing part. I’ve visualized data with different types of plots. After analyzing data, PCA have been built.
 
 Dataset Summary:
+
 Meter A contains 87 instances of diagnostic parameters for an 8-path liquid ultrasonic flow meter (USM). It has 37 attributes and 2 classes or health states:
+
 Class '1' - Healthy
 Class '2' - Installation effects
 
