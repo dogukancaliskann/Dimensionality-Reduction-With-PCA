@@ -10,7 +10,7 @@ output: html_notebook
 
 Importing our dataset into RStudio, then looking at summary of dataset
 ```{r}
-df <- read.delim("C:/Users/dogukan1/Desktop/Meter A")
+df <- read.delim("C:/Meter A")
 ```
 
 ```{r}
